@@ -1,7 +1,9 @@
-data class Jogo (val titulo: String,
-            val capa: String){
+package br.com.viega.AluGames.modelo
 
-    val descricao = ""
+data class Jogo (val titulo: String,
+                 val capa: String){
+
+    var descricao: String? = null
 
 
     override fun toString(): String {
